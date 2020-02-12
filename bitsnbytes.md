@@ -2,7 +2,7 @@
 # bitsnbytes
 We are given a link: https://challenges.neverlanctf.com:1150. When you go to the link it gives you this image. 
 
-![SVG Image](https://imgur.com/1z3vcB8) 
+![SVG Image]('https://imgur.com/1z3vcB8') 
 
 My first thought was that the Green and Black represeted Binary. So I wrote a script that did that. It gets the image then parses it for the color hex code and change it to 0 or 1 based on if its green(1) or black(0).
 We get a Time: Hash when you convert the binary to ascii. At first thought we had to do something with the hash but didnt have to. The key is to know that the image changes every 60 seconds or so. You find this by running the programming a few times and seeing that you get a new hash. So just make a new call every 60 seconds and wait.
