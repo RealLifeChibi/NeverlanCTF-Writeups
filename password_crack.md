@@ -15,7 +15,7 @@ Here's your hash: 267530778aa6585019c98985eeda255f. The hashformat is md5.
 
 ---
 
-Just got to bruteforce the password by checking all possible combinations of color-random-year-neverlan_team_member's_name(which was found was the neverlanctf.com website)
+Just got to bruteforce the password by checking all possible combinations of color-random-year-neverlan_team_member's_name(which was found was the neverlanctf.com website) then compare it to the hash. 
 
 ```
 import hashlib
