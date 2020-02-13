@@ -10,6 +10,7 @@ Your flag won't be in the normal flag{flagGoesHere} syntax
 ---
 
 We are giving this img. 
+
 ![alt text](https://raw.githubusercontent.com/reallifechibi/NEverlanCTF-Writeups/master/secretmessage.jpg)
 
 When I first looked at it I wasnt sure what to do with it. The more I thought about it I noticed there was 1 full blank and if you count the number of boxes in each grid its 25 (5 rows, 5 columns)
